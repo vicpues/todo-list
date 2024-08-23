@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --mode=production --config webpack.common.js",
+    "open": "open-cli ./dist/index.html",
+    "clean": "git rm -r --cached dist",
+    "predist": "git push origin --delete gh-pages ; npm run build",
+    "dist": "git add -f dist && git commit dist -m \"Release\" && git subtree push --prefix dist origin gh-pages",
+    "postdist": "npm run clean && git reset HEAD^"
+  },
+  "keywords": [],
+  "author": "vicpues",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "open-cli": "^8.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
