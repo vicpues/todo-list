@@ -1,0 +1,7 @@
+GENERAL GOALS:
+
+- Site’s goals: ----------------- Keeping track of tasks
+- Target audience: -------------- Me, prospective employers?
+- What I’m trying to practise: -- Modular app design, minimum viable product
+- Time estimate: ---------------- ~3 days for logic
+
