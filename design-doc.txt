@@ -5,3 +5,7 @@ GENERAL GOALS:
 - What I’m trying to practise: -- Modular app design, minimum viable product
 - Time estimate: ---------------- ~3 days for logic
 
+FEATURES:
+
+- HOMEPAGE - where you can see all tasks, regardless of project, by due date
+- PROJECTS SIDEBAR - where you can see individual projects
