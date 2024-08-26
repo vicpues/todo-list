@@ -1,0 +1,7 @@
+- [_] Todo-item data class
+    - [_] Title
+    - [_] Description (optional)
+    - [_] Due date (optional)
+    - [_] Priority
+    - [_] Icon (optional)
+    - [_] Recurring (default: false)
