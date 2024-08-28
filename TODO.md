@@ -8,11 +8,9 @@
     - [x] Recurring (bool, default: false)
     - [x] Completed? (bool, always starts as false)
 
-- [_] Manipulating todo-items:
-    - [_] Add task
-    - [_] Edit task
-    - [_] Complete task
+- [x] Manipulating todo-items:
+    - [x] Add task
 
 - [_] Displaying todo's:
-    - [_] Sort by (date, priority, project)
+    - [x] Sort by (date, priority, project)
     - [_] See only (due today, specific project)
