@@ -11,6 +11,7 @@
 - [x] Manipulating todo-items:
     - [x] Add task
 
-- [_] Displaying todo's:
+- [x] Displaying todo's:
     - [x] Sort by (date, priority, project)
-    - [_] See only (due today, specific project)
+    - [x] See only (due today, specific project)
+
