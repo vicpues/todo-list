@@ -20,9 +20,11 @@ console.log("Sorted by due date:");
 console.log(tasklist.sortedBy("dueDate"));
 console.log("Sorted by priority:");
 console.log(tasklist.sortedBy("priority"));
+console.log("With an item removed: ")
 tasklist.remove(item1);
 console.log(tasklist.list);
-console.log(tasklist.filter("title", "Cook dinner"))
+console.log("Only the ones due August 28th")
+console.log(tasklist.filter("dueDate", (new Date("2024/08/28").toString())))
 
 const stopTime = (new Date()).getTime();
 console.log(`Executed in ${stopTime - startTime}ms`)
