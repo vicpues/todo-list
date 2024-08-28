@@ -15,3 +15,68 @@
     - [x] Sort by (date, priority, project)
     - [x] See only (due today, specific project)
 
+- [_] UI Design
+    - [_] Gather references
+    - [_] Wireframe
+        - [_] Layout
+        - [_] Nav bar navigation
+        - [_] Main tasklist display section
+    - [_] Sketch out components
+        - [_] Task item
+            - [_] Title
+            - [_] Priority
+            - [_] Completed
+            - [_] Due date (formatted; repeats every...)
+            - [_] Description (expanded/collapsed)
+            - [_] Project (expanded/collapsed)
+            - [_] Icon
+            - [_] Expand
+            - [_] Edit
+            - [_] Delete
+        - [_] Tasklist section
+            - [_] Sorted/filtered sections (due Today, due tomorrow by project etc)
+            - [_] Add task to section
+            - [_] Hide section
+        - [_] Nav bar
+            - [_] Show/hide nav bar (desktop & mobile)
+            - [_] Usefult sorts/filters (due Today, due this week, high priority...)
+            - [_] Completed
+            - [_] List of projects
+            - [_] Add blank task
+            - [_] Delete completed tasks
+    - [_] Colors
+        - [_] Color hierarchy
+        - [_] Light mode palette
+        - [_] Dark mode palette
+    - [_] Typography
+        - [_] Font faces
+        - [_] Font sizes/hierarchy
+        - [_] Spacing/responsiveness
+        - [_] Accessibility (test for different root sizes)
+    - [_] Assets
+        - [_] Icons
+
+- [_] JS Layout
+    - [_] Nav bar
+    - [_] Tasklist
+
+- [_] JS Components
+    - [_] Task
+    - [_] Tasklist sections
+    - [_] Nav bar items
+
+- [_] DOM interface
+    - [_] Cache DOM
+    - [_] Bind events (Find ways to reduce number of listeners)
+    - [_] Render page
+
+- [_] Add support for localstorage
+    - [_] ???
+    - [_] Store tasks
+    - [_] Store user settings
+    - [_] ???
+
+- [_] Final touches
+    - [_] Check credits
+    - [_] Link source
+    - [_] Add README
