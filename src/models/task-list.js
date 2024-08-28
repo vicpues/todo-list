@@ -15,6 +15,10 @@ export default class TaskList {
         this.#list.splice(taskIndex, 1);
     }
 
+    filter(property, value) {
+        return this.#list.filter(item => item[property] === value);
+    }
+
     sortedBy(mainProperty) {
         const listCopy = this.#list.slice();
         return listCopy.sort(_makeChainedSortFunction(mainProperty));
@@ -57,3 +61,4 @@ function _makeCompareFunction(byProperty) {
     if (byProperty === "dueDate") return dueDateCallback;
     else return defaultCallback;
 }
+
