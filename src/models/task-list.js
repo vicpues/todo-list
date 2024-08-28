@@ -16,7 +16,7 @@ export default class TaskList {
     }
 
     filter(property, value) {
-        return this.#list.filter(item => item[property] === value);
+        return this.#list.filter(item => item[property].toString() === value);
     }
 
     sortedBy(mainProperty) {
