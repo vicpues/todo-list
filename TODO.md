@@ -15,68 +15,72 @@
     - [x] Sort by (date, priority, project)
     - [x] See only (due today, specific project)
 
-- [_] UI Design
-    - [_] Gather references
-    - [_] Wireframe
-        - [_] Layout
-        - [_] Nav bar navigation
-        - [_] Main tasklist display section
-    - [_] Sketch out components
-        - [_] Task item
-            - [_] Title
-            - [_] Priority
-            - [_] Completed
-            - [_] Due date (formatted; repeats every...)
-            - [_] Description (expanded/collapsed)
-            - [_] Project (expanded/collapsed)
-            - [_] Icon
-            - [_] Expand
-            - [_] Edit
-            - [_] Delete
-        - [_] Tasklist section
-            - [_] Sorted/filtered sections (due Today, due tomorrow by project etc)
-            - [_] Add task to section
-            - [_] Hide section
-        - [_] Nav bar
-            - [_] Show/hide nav bar (desktop & mobile)
-            - [_] Usefult sorts/filters (due Today, due this week, high priority...)
-            - [_] Completed
-            - [_] List of projects
-            - [_] Add blank task
-            - [_] Delete completed tasks
-    - [_] Colors
-        - [_] Color hierarchy
-        - [_] Light mode palette
-        - [_] Dark mode palette
-    - [_] Typography
-        - [_] Font faces
-        - [_] Font sizes/hierarchy
-        - [_] Spacing/responsiveness
-        - [_] Accessibility (test for different root sizes)
-    - [_] Assets
-        - [_] Icons
+- [ ] UI Design
+    - [ ] Gather references
+    - [ ] Wireframe
+        - [ ] Layout
+        - [ ] Nav bar navigation
+        - [ ] Main tasklist display section
+    - [ ] Sketch out components
+        - [ ] Task item
+            - [ ] Title
+            - [ ] Priority
+            - [ ] Completed
+            - [ ] Due date (formatted; repeats every...)
+            - [ ] Description (expanded/collapsed)
+            - [ ] Project (expanded/collapsed)
+            - [ ] Icon
+            - [ ] Expand
+            - [ ] Edit
+            - [ ] Delete
+        - [ ] Tasklist section
+            - [ ] Sorted/filtered sections (due Today, due tomorrow by project etc)
+            - [ ] Add task to section
+            - [ ] Hide section
+        - [ ] Nav bar
+            - [ ] Show/hide nav bar (desktop & mobile)
+            - [ ] Usefult sorts/filters (due Today, due this week, high priority...)
+            - [ ] Completed
+            - [ ] List of projects
+            - [ ] Add blank task
+            - [ ] Delete completed tasks
+    - [ ] Colors
+        - [ ] Color hierarchy
+        - [ ] Light mode palette
+        - [ ] Dark mode palette
+    - [ ] Typography
+        - [ ] Font faces
+        - [ ] Font sizes/hierarchy
+        - [ ] Spacing/responsiveness
+        - [ ] Accessibility (test for different root sizes)
+    - [ ] Assets
+        - [ ] Icons
 
-- [_] JS Layout
-    - [_] Nav bar
-    - [_] Tasklist
+- [ ] JS Layout
+    - [ ] Nav bar
+    - [ ] Tasklist
 
-- [_] JS Components
-    - [_] Task
-    - [_] Tasklist sections
-    - [_] Nav bar items
+- [ ] JS Components
+    - [ ] Task
+    - [ ] Tasklist sections
+    - [ ] Nav bar items
 
-- [_] DOM interface
-    - [_] Cache DOM
-    - [_] Bind events (Find ways to reduce number of listeners)
-    - [_] Render page
+- [ ] DOM interface
+    - [ ] Cache DOM
+    - [ ] Bind events (Find ways to reduce number of listeners)
+    - [ ] Render page
 
-- [_] Add support for localstorage
-    - [_] ???
-    - [_] Store tasks
-    - [_] Store user settings
-    - [_] ???
+- [ ] Add support for localstorage
+    - [ ] ???
+    - [ ] Store tasks
+    - [ ] Store user settings
+    - [ ] ???
 
-- [_] Final touches
-    - [_] Check credits
-    - [_] Link source
-    - [_] Add README
+- [ ] Final touches
+    - [ ] Check credits
+    - [ ] Link source
+    - [ ] Add README
+
+- [ ] Extra features
+    - [ ] Checklist for individual tasks
+    
