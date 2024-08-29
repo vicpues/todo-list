@@ -16,11 +16,11 @@
     - [x] See only (due today, specific project)
 
 - [ ] UI Design
-    - [ ] Gather references
-    - [ ] Wireframe
-        - [ ] Layout
-        - [ ] Nav bar navigation
-        - [ ] Main tasklist display section
+    - [x] Gather references
+    - [x] Wireframe
+        - [x] Layout
+        - [x] Nav bar navigation
+        - [x] Main tasklist display section
     - [ ] Sketch out components
         - [ ] Task item
             - [ ] Title
